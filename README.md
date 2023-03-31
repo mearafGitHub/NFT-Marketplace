@@ -1,5 +1,8 @@
-# NFT-Marketplace
-NFT marketplace for scripts in the film industry. Solidity programming language is used. Deployed on Ropsten test net. 
+# NFT Mint and Trade Marketplace
+##NFT minting and trading marketplace DApp. 
+##--
+
+Solidity programming language is used. Deployed on Ropsten test net. 
 
 ## NFT Listing page(legacy)
 ![4](https://user-images.githubusercontent.com/44867763/150645123-a5b5d0b8-862d-4933-945e-6e078a846d42.png)
@@ -13,3 +16,5 @@ NFT marketplace for scripts in the film industry. Solidity programming language 
 
 ## Users creats the NFT's from their files here
 ![wb-mint](https://user-images.githubusercontent.com/44867763/151759271-8d285978-1b83-4e06-a0d3-d222ecaeb121.png)
+
+## The File for the NFT is safed in encrypted form with a uniquie id taked from the file ecryptioin.
