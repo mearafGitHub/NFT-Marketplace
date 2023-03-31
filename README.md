@@ -1,8 +1,6 @@
 # NFT Mint and Trade Marketplace
 ### NFT minting and trading marketplace DApp
 
-### --
-
 Solidity programming language is used. Deployed on Ropsten test net. 
 
 ## NFT Listing page(legacy)
