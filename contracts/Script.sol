@@ -89,13 +89,13 @@ contract Script is ERC1155{
             scriptTypesCollection[_scriptTokenId] = script;
     }
 
-    function withdrawMoneyTo(address payable _to, uint256 amount) public returns(bool){
+    function withdrawMoneyTo(address payable _to, uint256 amount) public payable returns(bool){
         _to.transfer(amount);
         paidAmount = amount;
         return true;
     }
 
-    function detailViewCharge(uint _detailViewFee) public payable returns(bool){
+    function detailViewCharge(uint _detailViewFee) public returns(bool){
         require(msg.value == _detailViewFee);
         return true;
     }
