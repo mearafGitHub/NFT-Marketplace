@@ -74,7 +74,7 @@ contract Script is ERC1155{
             uint256 _scriptTokenId = _tokenIdCounter.current();
             require((_writer == _scriptOwner), "Writer address not same as owner address.");
             script = ScriptType(
-                _writer,
+                _scriptWriter,
                 _scriptOwner,
                 _scriptTitle,
                 _scriptPrice,
